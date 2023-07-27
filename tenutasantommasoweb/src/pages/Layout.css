@@ -1,0 +1,16 @@
+.Banner {
+    background-color: black;
+    height: 4em;
+    width: 100%;
+}
+
+.BannerText{
+    color: white;
+    height: 2em;
+}
+
+ul li {
+    display: inline-block;
+    padding: 3em;
+    list-style: none;
+}
