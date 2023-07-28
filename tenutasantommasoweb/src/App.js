@@ -8,6 +8,13 @@ import Visit from './pages/Visit';
 import Beach from "./pages/Beach";
 import NoPage from "./pages/NoPage";
 
+
+// TODO:
+// Add blur and hover effects to buttons
+// Add Images to buttons
+// Style pages and add content
+// Go to the section after button pressed 
+
 function App() {
   return (
     <BrowserRouter>

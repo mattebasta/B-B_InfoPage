@@ -5,33 +5,34 @@ const Layout = () => {
   return (
     <>
       <div className="Banner">
-        <p className="BannerText">Cose</p>
+        <p className="BannerText">Tenuta San Tommaso</p>
+        <p className="BannerText"> Language</p>
       </div>
       <nav>
         <ul>
           <li>
             <Link to="/">
-              <button>Home</button>
+              <button className="homeButton">Home</button>
             </Link>
           </li>
           <li>
             <Link to="/supermarket">
-              <button>Supermarket</button>
+              <button className="supButton">Supermarket</button>
             </Link>
           </li>
           <li>
             <Link to="/restaurant">
-              <button>Restaurants</button>
+              <button className="restButton">Restaurants</button>
             </Link>
           </li>
           <li>
             <Link to="/visit">
-              <button>Must Visit</button>
+              <button className="attrButton">Must Visit</button>
             </Link>
           </li>
           <li>
             <Link to="/beach">
-              <button>Equipped Beaches</button>
+              <button className="lidoButton">Equipped Beaches</button>
             </Link>
           </li>
         </ul>
