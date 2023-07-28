@@ -1,5 +1,5 @@
 const Visit = () => {
-    return <h1>Must Visit</h1>;
+    return <h1 id="landing">Must Visit</h1>;
   };
   
   export default Visit;

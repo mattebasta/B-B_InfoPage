@@ -1,6 +1,6 @@
 const Restaurant = () => {
     return (
-      <h1>Restaurants</h1>
+      <h1 id="landing">Restaurants</h1>
     );
   };
   

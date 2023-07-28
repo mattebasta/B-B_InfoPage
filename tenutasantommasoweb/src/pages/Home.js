@@ -1,8 +1,10 @@
 
-
 const Home = () => {
     return (
-    <h1>Home</h1>
+      <div>
+        <h1 id="landing">Home</h1>
+      </div>
+    
     
     
     

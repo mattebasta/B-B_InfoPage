@@ -11,9 +11,8 @@ import NoPage from "./pages/NoPage";
 
 // TODO:
 // Add blur and hover effects to buttons
-// Add Images to buttons
 // Style pages and add content
-// Go to the section after button pressed 
+// Add animation to buttons
 
 function App() {
   return (
