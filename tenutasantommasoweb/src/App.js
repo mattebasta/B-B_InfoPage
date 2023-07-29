@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
@@ -10,9 +9,9 @@ import NoPage from "./pages/NoPage";
 
 
 // TODO:
-// Add blur and hover effects to buttons
 // Style pages and add content
 // Add animation to buttons
+// change background color (white maybe)
 
 function App() {
   return (
