@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, MemoryRouter } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Supermarket from "./pages/Supermarket";
@@ -12,10 +12,12 @@ import NoPage from "./pages/NoPage";
 // Style pages and add content
 // Add animation to buttons
 // change background color (white maybe)
+// add a welcome text
+// add a button to copy links to clipboard(contact, other link of maps)
 
 function App() {
   return (
-    <BrowserRouter>
+    <MemoryRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -26,7 +28,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </MemoryRouter>
   );
 }
 

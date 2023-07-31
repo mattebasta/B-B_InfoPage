@@ -13,6 +13,60 @@
   height: fit-content;
 }
 
+.hideContact{
+  position: relative;
+  background-color: bisque;
+  text-align: center;
+  left: 75vw;
+  display: none;
+}
+.contactInfo:hover + .hideContact{
+  display:block;
+  position: absolute;
+  z-index: 1;
+}
+
+/* button with shine effect */
+
+/* .css-button-shadow-border-sliding--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #57cc99;
+   z-index: 1;
+  }
+  .css-button-shadow-border-sliding--green:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .css-button-shadow-border-sliding--green:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #80ed99;
+    right: 0;
+  }
+  .css-button-shadow-border-sliding--green:active {
+    top: 2px;
+  } */
+
+
 .containerFlexBoxButton {
   display: flex;
   flex-direction: row;
@@ -41,7 +95,7 @@
   font-family: custom1;
 }
 
-.helpButton {
+.helpText {
   color: white;
   padding: 1em;
   font-size: 5vw;
@@ -60,8 +114,8 @@ ul li {
 
 .houseButton {
     background-image: url("./img/house.jpeg");
-  width: 400px;
-  height: 250px;
+  width: 370px;
+  height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -70,14 +124,19 @@ ul li {
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
-  margin: 1em;
+  margin: 0.5em;
+  transition: transform .2s;
   font-family: custom1;
+}
+
+.houseButton:hover{
+    transform: scale(1.1);
 }
 
 .supButton {
   background: url(./img/supermercato-min.jpg);
-  width: 400px;
-  height: 250px;
+  width: 370px;
+  height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -86,14 +145,19 @@ ul li {
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
-  margin: 1em;
+  margin: 0.5em;
+  transition: transform .2s;
   font-family: custom1;
+}
+
+.supButton:hover{
+    transform: scale(1.1);
 }
 
 .lidoButton {
   background: url(./img/spiaggia-lido.jpeg);
-  width: 400px;
-  height: 250px;
+  width: 370px;
+  height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -102,14 +166,19 @@ ul li {
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
-  margin: 1em;
+  margin: 0.5em;
+  transition: transform .2s;
   font-family: custom1;
+}
+
+.lidoButton:hover{
+    transform: scale(1.1);
 }
 
 .attrButton {
   background: url(./img/siracusa-teatro-greco.jpg);
-  width: 400px;
-  height: 250px;
+  width: 370px;
+  height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,14 +187,19 @@ ul li {
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
-  margin: 1em;
+  margin: 0.5em;
+  transition: transform .2s;
   font-family: custom1;
+}
+
+.attrButton:hover{
+    transform: scale(1.1);
 }
 
 .restButton {
   background: url(./img/restaurant.webp);
-  width: 400px;
-  height: 250px;
+  width: 370px;
+  height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -134,6 +208,11 @@ ul li {
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
-  margin: 1em;
+  margin: 0.5em;
+  transition: transform .2s;
   font-family: custom1;
+}
+
+.restButton:hover{
+    transform: scale(1.1);
 }

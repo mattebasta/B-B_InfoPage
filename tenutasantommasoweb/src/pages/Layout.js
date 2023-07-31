@@ -8,7 +8,10 @@ const Layout = () => {
       <div className="Homebackground">
         <div className="Banner">
           <p className="BannerText">Tenuta San Tommaso</p>
-          <button className="helpButton">Need Help?</button>
+          <p className="helpText contactInfo">Need Help?</p>
+          <div className="hideContact">
+            <p>Contact Matteo via whatsapp <br></br> at +39 3935341650</p>
+          </div>
         </div>
         <nav>
           <div className="containerFlexBoxButton">
