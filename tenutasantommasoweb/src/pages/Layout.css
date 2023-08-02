@@ -14,16 +14,7 @@
 }
 
 .hideContact{
-  position: relative;
-  background-color: bisque;
-  text-align: center;
-  left: 75vw;
-  display: none;
-}
-.contactInfo:hover + .hideContact{
-  display:block;
-  position: absolute;
-  z-index: 1;
+  color: whitesmoke;
 }
 
 /* button with shine effect */

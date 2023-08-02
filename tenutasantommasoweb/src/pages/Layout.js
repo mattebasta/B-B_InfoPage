@@ -2,16 +2,13 @@ import { Outlet } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./Layout.css";
 
+
 const Layout = () => {
   return (
     <>
       <div className="Homebackground">
         <div className="Banner">
           <p className="BannerText">Tenuta San Tommaso</p>
-          <p className="helpText contactInfo">Need Help?</p>
-          <div className="hideContact">
-            <p>Contact Matteo via whatsapp <br></br> at +39 3935341650</p>
-          </div>
         </div>
         <nav>
           <div className="containerFlexBoxButton">
@@ -33,6 +30,10 @@ const Layout = () => {
 
             <HashLink smooth to="/beach#landing">
               <button className="lidoButton">Equipped Beaches</button>
+            </HashLink>
+
+            <HashLink smooth to="/contact#landing">
+              <button className="helpText">Need Help?</button>
             </HashLink>
           </div>
         </nav>
