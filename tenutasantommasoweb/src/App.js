@@ -15,6 +15,7 @@ import NoPage from "./pages/NoPage";
 // change background color (white maybe)
 // add a button to copy links to clipboard(contact, other link of maps)
 // add useful number
+// add link to the website for booking
 
 function App() {
   return (

@@ -10,6 +10,7 @@
     background: linear-gradient(394deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b3f1fb",GradientType=1);
     height: auto;
+    background-repeat: no-repeat;
 }
 
 .bannerHome{
@@ -19,4 +20,81 @@
     text-align: center;
     color: white;
     background-color: rgb(0, 158, 100);
+}
+
+.homeP{
+    font-family: custom1;
+    font-size: 4vw;
+    text-align: left;
+    
+}
+
+.poolDiv{
+    margin: 1em;
+    font-size: 3vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.poolDiv p{
+    color: rgb(0, 145, 255);
+    width: 50%;
+}
+.poolDiv img{
+    width: 50%;
+    mask-image: linear-gradient(30deg, rgba(0, 0, 0, 1) 50%, transparent);
+    clip-path:  polygon(0 0, 34% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+}
+
+.sportDiv{
+    margin: 1em;
+    font-size: 3vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sportDiv p{
+    color: rgb(0, 145, 255);
+    width: 50%;
+}
+
+.sportDiv img{
+    width: 50%;
+    mask-image: linear-gradient(30deg, rgba(0, 0, 0, 1) 70%, transparent);
+    clip-path: polygon(22% 0, 100% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    max-width: 420px;
+    max-height: auto;
+}
+
+.acDiv{
+    margin: 1em;
+    font-size: 3vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.acDiv p{
+    color: rgb(0, 145, 255);
+    width: 50%;
+}
+
+.acDiv img{
+    width: 50%;
+    mask-image: linear-gradient(30deg, rgba(0, 0, 0, 1) 70%, transparent);
+    clip-path: polygon(0 0, 49% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    max-width: 350px;
+    max-height: auto;
 }

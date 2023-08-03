@@ -5,11 +5,12 @@
 
 .Homebackground {
   background: rgb(255,255,255);
-background: -moz-linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
-background: -webkit-linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
-background: linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b3f1fb",GradientType=1);
+  background: -moz-linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
+  background: -webkit-linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
+  background: linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b3f1fb",GradientType=1);
   width: 100%;
+  max-width: 100%;
   height: fit-content;
 }
 
@@ -121,8 +122,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   animation-delay: 8s;
   animation-fill-mode: forwards;
 }
-
-
 
 
 ul li {
