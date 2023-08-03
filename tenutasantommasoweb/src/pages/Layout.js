@@ -13,7 +13,7 @@ const Layout = () => {
         <div className="WelcomeText">
           <div className="upText">WELCOME TO</div>
           <div className="midText">TENUTA SAN TOMMASO</div>
-          <div className="downText">CLICK BUTTONS BELOW FOR MORE</div>
+          <div className="downText">CLICK BUTTONS BELOW FOR MORE...</div>
         </div>
         <nav>
           <div className="containerFlexBoxButton">
@@ -42,8 +42,8 @@ const Layout = () => {
             </HashLink>
           </div>
         </nav>
+        <Outlet />
       </div>
-      <Outlet />
     </>
   );
 };
