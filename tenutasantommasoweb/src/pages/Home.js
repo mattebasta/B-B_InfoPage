@@ -1,8 +1,9 @@
-
+import "./Home.css";
 const Home = () => {
     return (
-      <div>
-        <h1 id="landing">Home</h1>
+      <div className="backgroundHome">
+        <div className="bannerHome" id="landing">Home</div>
+        
       </div>
     
     
