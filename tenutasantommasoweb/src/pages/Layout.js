@@ -10,6 +10,11 @@ const Layout = () => {
         <div className="Banner">
           <p className="BannerText">Tenuta San Tommaso</p>
         </div>
+        <div className="WelcomeText">
+          <div className="upText">WELCOME TO</div>
+          <div className="midText">TENUTA SAN TOMMASO</div>
+          <div className="downText">CLICK BUTTONS BELOW FOR MORE</div>
+        </div>
         <nav>
           <div className="containerFlexBoxButton">
             <HashLink smooth to="/#landing">
@@ -29,11 +34,11 @@ const Layout = () => {
             </HashLink>
 
             <HashLink smooth to="/beach#landing">
-              <button className="lidoButton">Equipped Beaches</button>
+              <button className="lidoButton">Equipped <br></br> Beaches</button>
             </HashLink>
 
             <HashLink smooth to="/contact#landing">
-              <button className="helpText">Need Help?</button>
+              <button className="contactButton">Helpful <br></br> Numbers</button>
             </HashLink>
           </div>
         </nav>

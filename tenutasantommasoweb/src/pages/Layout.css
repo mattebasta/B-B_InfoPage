@@ -13,10 +13,6 @@
   height: fit-content;
 }
 
-.hideContact{
-  color: whitesmoke;
-}
-
 /* button with shine effect */
 
 /* .css-button-shadow-border-sliding--green {
@@ -57,6 +53,17 @@
     top: 2px;
   } */
 
+@keyframes fadeIn {
+  from  {opacity: 0;}
+  to  {opacity: 1;}
+}
+
+  nav{
+    opacity: 0;  
+    animation: fadeIn 3s;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+  }
 
 .containerFlexBoxButton {
   display: flex;
@@ -86,15 +93,36 @@
   font-family: custom1;
 }
 
-.helpText {
-  color: white;
-  padding: 1em;
-  font-size: 5vw;
+.WelcomeText{
+  color: whitesmoke;
   font-family: custom1;
-  background: none;
-  outline: none;
-  border: none;
+  text-align: center;
+  font-size: 6vw;
 }
+
+.upText {
+  opacity: 0;  
+  animation: fadeIn 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.midText{
+  opacity: 0;  
+  animation: fadeIn 3s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.downText{
+  opacity: 0;  
+  animation: fadeIn 3s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+
+
 
 ul li {
   display: inline-block;
@@ -205,5 +233,26 @@ ul li {
 }
 
 .restButton:hover{
+    transform: scale(1.1);
+}
+
+.contactButton {
+  background: url(./img/Phone_icon.png);
+  width: 370px;
+  height: 220px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  color: whitesmoke;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  border-radius: 20px;
+  mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
+  margin: 0.5em;
+  transition: transform .2s;
+  font-family: custom1;
+}
+
+.contactButton:hover{
     transform: scale(1.1);
 }
