@@ -12,9 +12,7 @@ import NoPage from "./pages/NoPage";
 
 // TODO:
 // Style pages and add content
-// Add animation to buttons
 // change background color (white maybe)
-// add a welcome text
 // add a button to copy links to clipboard(contact, other link of maps)
 // add useful number
 
