@@ -4,11 +4,11 @@
 }
 
 .Homebackground {
-  background: linear-gradient(
-    45deg,
-    rgb(84, 233, 211) 0%,
-    rgb(37, 147, 164) 100%
-  );
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
+background: -webkit-linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
+background: linear-gradient(169deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b3f1fb",GradientType=1);
   width: 100%;
   height: fit-content;
 }
@@ -94,10 +94,11 @@
 }
 
 .WelcomeText{
-  color: whitesmoke;
+  color: rgb(61, 210, 255);
   font-family: custom1;
   text-align: center;
   font-size: 6vw;
+  margin: 1em;
 }
 
 .upText {
@@ -132,7 +133,7 @@ ul li {
 
 
 .houseButton {
-    background-image: url("./img/house.jpeg");
+  background-image: url(./img/house.jpeg);
   width: 370px;
   height: 220px;
   background-size: cover;
@@ -142,6 +143,7 @@ ul li {
   color: whitesmoke;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
+  border-image: url(./img/house.jpeg);
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
   margin: 0.5em;
   transition: transform .2s;
@@ -163,6 +165,7 @@ ul li {
   color: whitesmoke;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
+  border-image: url(./img/supermercato-min.jpg);
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
   margin: 0.5em;
   transition: transform .2s;
@@ -184,6 +187,7 @@ ul li {
   color: whitesmoke;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
+  border-image: url(./img/spiaggia-lido.jpeg);
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
   margin: 0.5em;
   transition: transform .2s;
@@ -205,6 +209,7 @@ ul li {
   color: whitesmoke;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
+  border-image: url(./img/siracusa-teatro-greco.jpg);
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
   margin: 0.5em;
   transition: transform .2s;
@@ -226,6 +231,7 @@ ul li {
   color: whitesmoke;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
+  border-image: url(./img/restaurant.webp);
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
   margin: 0.5em;
   transition: transform .2s;
@@ -247,6 +253,7 @@ ul li {
   color: whitesmoke;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   border-radius: 20px;
+  border-image: url(./img/Phone_icon.png);
   mask-image:  linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);
   margin: 0.5em;
   transition: transform .2s;
