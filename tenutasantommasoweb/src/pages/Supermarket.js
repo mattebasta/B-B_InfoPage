@@ -1,5 +1,17 @@
+import "./Supermarket.css"
+
+
 const Supermarket = () => {
-    return <h1 id="landing">Supermarket</h1>;
+    return(
+      <div className="backgroundSuper">
+        <div className="bannerSuper" id="landing">
+          Supermarket
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    ) 
   };
   
   export default Supermarket;
