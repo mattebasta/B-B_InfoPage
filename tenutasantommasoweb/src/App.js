@@ -16,7 +16,7 @@ import NoPage from "./pages/NoPage";
 // add a button to copy links to clipboard(contact, other link of maps)
 // add useful number
 // add link to the website for booking (VRBO)
-// maps and images diagonally with zoom animation on hover, link on the bottom
+// better supermarket page styiling
 
 function App() {
   return (
