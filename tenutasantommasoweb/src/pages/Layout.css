@@ -11,7 +11,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b3f1fb",GradientType=1);
   width: 100%;
   max-width: 100%;
-  height: fit-content;
+  height: 100%;
 }
 
 @keyframes fadeIn {
@@ -93,7 +93,7 @@ ul li {
 
 .houseButton {
   background-image: url(./img/house.jpeg);
-  width: 370px;
+  width: 90vw;
   height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@ ul li {
 
 .supButton {
   background: url(./img/supermercato-min.jpg);
-  width: 370px;
+  width: 90vw;
   height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ ul li {
 
 .lidoButton {
   background: url(./img/spiaggia-lido.jpeg);
-  width: 370px;
+  width: 90vw;
   height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -159,7 +159,7 @@ ul li {
 
 .attrButton {
   background: url(./img/siracusa-teatro-greco.jpg);
-  width: 370px;
+  width: 90vw;
   height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@ ul li {
 
 .restButton {
   background: url(./img/restaurant.webp);
-  width: 370px;
+  width: 90vw;
   height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -203,9 +203,9 @@ ul li {
 
 .contactButton {
   background: url(./img/Phone_icon.png);
-  width: 370px;
+  width: 90vw;
   height: 220px;
-  background-size: cover;
+  background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
   font-size: 40px;

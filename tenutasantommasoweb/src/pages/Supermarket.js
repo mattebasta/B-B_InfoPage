@@ -1,4 +1,5 @@
 import "./Supermarket.css";
+import ReturnBTN from './component/upToPageButton.js';
 
 const Supermarket = () => {
   return (
@@ -14,7 +15,7 @@ const Supermarket = () => {
         </p>
         <div className="superLinks">
           <a
-            href="http://maps.apple.com/?q=37.08825761369096,15.159846916778568"
+            href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.08825761369096,15.159846916778568&travelmode=driving"
             rel="noreferrer"
             target="_blank"
           >
@@ -24,7 +25,7 @@ const Supermarket = () => {
             </div>
           </a>
             <a
-              href="http://maps.apple.com/?q=37.079689,15.163045"
+              href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.07983577403782,15.16277956254551&travelmode=driving"
               rel="noreferrer"
               target="_blank"
             >
@@ -34,7 +35,7 @@ const Supermarket = () => {
           </div>
           </a>
           <a
-              href="http://maps.apple.com/?q=37.08005594977314,15.164382697630419"
+              href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.07990298571543,15.162808965618872&travelmode=driving"
               rel="noreferrer"
               target="_blank"
           >
@@ -45,6 +46,7 @@ const Supermarket = () => {
           </a>
         </div>
       </div>
+      <ReturnBTN></ReturnBTN>
     </div>
   );
 };

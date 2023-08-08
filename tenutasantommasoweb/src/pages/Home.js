@@ -2,12 +2,10 @@ import "./Home.css";
 import Pool from "./img/pool.jpeg";
 import Court from "./img/court.jpeg";
 import AC from "./img/inside.jpeg";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import ReturnBTN from './component/upToPageButton.js';
+
 
 const Home = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
 
   return (
     <div className="backgroundHome">
@@ -37,11 +35,7 @@ const Home = () => {
             <sub>{"(Fresh drinks not included, only AC)"}</sub>
           </p>
         </div>
-        <div className="toTopDiv">
-          <button onClick={scrollToTop} className="backToTopBTN">
-            <BsFillArrowUpCircleFill size={40}></BsFillArrowUpCircleFill>
-          </button>
-        </div>
+        <ReturnBTN></ReturnBTN>
       </div>
     </div>
   );

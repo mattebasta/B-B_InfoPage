@@ -1,0 +1,14 @@
+.toTopDiv{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items:center;
+    text-align: end;
+    background-color: transparent;
+  }
+  
+  .backToTopBTN{
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }

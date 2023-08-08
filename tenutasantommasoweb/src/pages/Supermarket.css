@@ -50,7 +50,7 @@
     font-size: 5vw;
     text-align: justify;
     text-justify: distribute;
-    color: rgb(209, 147, 147);
+    color: rgb(48, 186, 245);
 }
 
 .superLinks{
@@ -58,7 +58,7 @@
     justify-content: space-evenly;
     flex-direction: row;
     margin: 1em;
-    column-gap: 4vw;
+    column-gap: 3vw;
     font-family: custom1;
     font-size: 3vw;
 }
@@ -84,4 +84,19 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+.toTopDiv{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items:center;
+  text-align: end;
+  background-color: transparent;
+}
+
+.backToTopBTN{
+  background-color: transparent;
+  outline: none;
+  border: none;
 }

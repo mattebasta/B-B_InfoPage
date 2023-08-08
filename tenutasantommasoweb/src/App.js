@@ -12,11 +12,9 @@ import NoPage from "./pages/NoPage";
 
 // TODO:
 // Style pages and add content
-// change background color (white maybe)
-// add a button to copy links to clipboard(contact, other link of maps)
 // add useful number
 // add link to the website for booking (VRBO)
-// better supermarket page styiling
+// Restaurants page style
 
 function App() {
   return (
