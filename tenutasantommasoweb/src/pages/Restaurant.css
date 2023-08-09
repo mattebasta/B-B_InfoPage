@@ -29,26 +29,46 @@
     justify-content: center;
 }
 
+.restContainer p{
+    font-family: custom1;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    font-size: 2.5vw;
+    color: white;
+
+}
+
 .BarDiv{
-    background-image: url(./img/MazzarellaCafe_after.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
     height: 50vh;
+    margin: 1em;
+}
+.BarDiv img{
+    object-fit: scale-down;
+    margin: 1em;
 }
 
 .mementoDiv{
-    background-image: url(./img/Memento_after.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
     height: 50vh;
+    margin: 1em;
+}
+.mementoDiv img{
+    object-fit: scale-down;
+    margin: 1em;
 }
 
 .ondaBluDiv{
-    background-image: url(./img/ondaBluRestaurant_after.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
     height: 50vh;
+    margin: 1em;
+}
+.ondaBluDiv img{
+    object-fit: scale-down;
+    margin: 1em;
 }
