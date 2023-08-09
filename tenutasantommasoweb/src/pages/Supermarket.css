@@ -76,6 +76,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
+    color: rgb(0, 64, 255);
 }
 
 a:hover {

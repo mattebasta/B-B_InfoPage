@@ -21,3 +21,34 @@
     color: white;
     background-color: rgb(0, 158, 100);
 }
+
+.restContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BarDiv{
+    background-image: url(./img/MazzarellaCafe_after.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vw;
+    height: 50vh;
+}
+
+.mementoDiv{
+    background-image: url(./img/Memento_after.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vw;
+    height: 50vh;
+}
+
+.ondaBluDiv{
+    background-image: url(./img/ondaBluRestaurant_after.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vw;
+    height: 50vh;
+}

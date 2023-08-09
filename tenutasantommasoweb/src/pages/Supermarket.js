@@ -7,9 +7,10 @@ const Supermarket = () => {
       <div className="bannerSuper" id="landing">
         Supermarket
       </div>
+      <br /><br />
       <div className="superContainer">
         <p className="linkExplain">
-          There are 3 supermarket near the structure <br /> you can find links
+          There are 3 supermarkets near the structure <br /> you can find links
           below to get driving directions <br />
           Simply click on the link you prefer and open your favourite map app
         </p>

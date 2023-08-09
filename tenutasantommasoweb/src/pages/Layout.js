@@ -4,11 +4,16 @@ import "./Layout.css";
 
 
 const Layout = () => {
+  
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+};
+
   return (
     <>
       <div className="Homebackground">
         <div className="Banner">
-          <p className="BannerText">Tenuta San Tommaso</p>
+          <p className="BannerText" onClick={scrollToTop}>Tenuta San Tommaso</p>
         </div>
         <div className="WelcomeText">
           <div className="upText">WELCOME TO</div>
