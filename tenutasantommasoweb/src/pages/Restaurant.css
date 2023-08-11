@@ -22,53 +22,142 @@
     background-color: rgb(0, 158, 100);
 }
 
+.upTextRest{
+    font-size: 6vw;
+    font-family: custom1;
+    color: rgb(125, 222, 249);
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    margin: 1em
+}
+
 .restContainer{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    row-gap: 50px;
+    
 }
 
 .restContainer p{
     font-family: custom1;
     text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
-    font-size: 2.5vw;
-    color: white;
-
+    font-size: 4vw;
+    color: rgb(125, 222, 249);
+}
+.restContainer p:nth-child(odd){
+    color: rgb(69, 131, 255);
 }
 
 .BarDiv{
     display: flex;
-    justify-content: space-evenly;
-    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
     height: 50vh;
     margin: 1em;
+    column-gap: 1em;
 }
 .BarDiv img{
     object-fit: scale-down;
+    border-radius: 20px;
     margin: 1em;
+    clip-path: circle(72.7% at 27% 43%);
+    width: 50%;
+}
+.BarDiv p:nth-child(1){
+    font-size: 5vw;
+    justify-content: right;
+    align-items: center;
+    text-align: start;
 }
 
 .mementoDiv{
     display: flex;
-    justify-content: space-evenly;
-    width: 80vw;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
     height: 50vh;
     margin: 1em;
+    column-gap: 1em;
 }
 .mementoDiv img{
     object-fit: scale-down;
+    border-radius: 20px;
     margin: 1em;
+    width: 50%;
+    height: 40vh;
+    clip-path: circle(72.7% at 7% 50%);
+
+}
+.mementoDiv p:nth-child(1){
+    font-size: 5vw;
+    justify-content: left;
+    text-align: start;
 }
 
 .ondaBluDiv{
     display: flex;
-    justify-content: space-evenly;
-    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
     height: 50vh;
     margin: 1em;
+    column-gap: 1em;
 }
 .ondaBluDiv img{
     object-fit: scale-down;
+    border-radius: 20px;
     margin: 1em;
+    width: 50%;
+    clip-path: circle(72.7% at 27% 43%);
+}
+.ondaBluDiv p:nth-child(1){
+    font-size: 5vw;
+    justify-content: right;
+    text-align: start;
+}
+
+.tavPieDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 50vh;
+    margin: 1em;
+    column-gap: 1em;
+}
+.tavPieDiv img{
+    object-fit: scale-down;
+    border-radius: 20px;
+    margin: 1em;
+    width: 50%;
+    clip-path: circle(72.7% at 17% 43%);
+}
+.tavPieDiv p:nth-child(1){
+    font-size: 5vw;
+    justify-content: right;
+    text-align: start;
+}
+
+.regLuDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 50vh;
+    margin: 1em;
+    column-gap: 1em;
+}
+.regLuDiv img{
+    object-fit: scale-down;
+    border-radius: 20px;
+    width: 40vw;
+    margin: 1em;
+    clip-path: circle(72.7% at 27% 43%);
+}
+.regLuDiv p:nth-child(1){
+    font-size: 5vw;
+    justify-content: right;
+    text-align: start;
 }
