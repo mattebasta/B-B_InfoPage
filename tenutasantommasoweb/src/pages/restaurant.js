@@ -7,12 +7,6 @@ import tavernetta from "./img/LaTavernetta.jpeg";
 import ReginaLucia from './img/Rest_ReginaLucia-UPSCALED.png'
 
 const Restaurant = () => {
-
-  const openDaysScript = document.createElement("script");
-  openDaysScript.src = "./script/openDays.js";
-  openDaysScript.async = true;
-  document.body.appendChild(openDaysScript);
-
   return (
     <div className="backgroundRest">
       <div className="bannerRest" id="landing">
@@ -32,9 +26,9 @@ const Restaurant = () => {
           target="_blank"
         >
           <div className="BarDiv">
-            <div>
+            <div className="barInfo">
               <img src={barImg} alt="bar" />
-              <p></p>
+              <p><sub>€ | Closed on Tuesday</sub></p>
             </div>
             <div>
               <p>Bar Mazzarella</p>
@@ -54,7 +48,10 @@ const Restaurant = () => {
           target="_blank"
         >
           <div className="mementoDiv">
-          <img src={memImg} alt="memento" />
+          <div className="mementoInfo">
+            <img src={memImg} alt="memento" />
+            <p><sub>€€ | closed on Tuesday</sub></p>
+          </div>
           <div>
               <p>Memento7</p>
               <p>
@@ -71,7 +68,10 @@ const Restaurant = () => {
           target="_blank"
         >
           <div className="ondaBluDiv">
-            <img src={ondBluImg} alt="ondaBlu" />
+            <div className="ondaBluInfo">
+              <img src={ondBluImg} alt="ondaBlu" />
+              <p><sub> €€ | closed on Monday </sub></p>
+            </div>
             <div>
               <p>Onda Blu</p>
               <p>Good restaurant to eat typical fish dishes <br />
@@ -86,7 +86,10 @@ const Restaurant = () => {
           target="_blank"
         >
           <div className="tavPieDiv">
-          <img src={tavernetta} alt="tavernetta" />
+          <div className="tavPieInfo">
+            <img src={tavernetta} alt="tavernetta" />
+            <p><sub>€€ | closed on thursday</sub></p>
+          </div>
           <div>
               <p>La Tavernetta da Piero</p>
               <p>Enjoy fish and other local deliciousness <br />
@@ -101,7 +104,10 @@ const Restaurant = () => {
           target="_blank"
         >
           <div className="regLuDiv">
-            <img src={ReginaLucia} alt="Regina Lucia" />
+            <div className="regLuInfo">
+              <img src={ReginaLucia} alt="Regina Lucia" />
+              <p><sub>€€€ | closed on Tuesday </sub></p>
+            </div>
             <div>
               <p>Regina Lucia</p>
               <p>Excellent restaurant to try out gourmet dishes <br />

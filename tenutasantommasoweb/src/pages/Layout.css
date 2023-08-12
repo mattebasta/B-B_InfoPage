@@ -22,7 +22,7 @@
   nav{
     opacity: 0;  
     animation: fadeIn 3s;
-    animation-delay: 11s;
+    animation-delay: 8s;
     animation-fill-mode: forwards;
   }
 
@@ -72,14 +72,14 @@
 .midText{
   opacity: 0;  
   animation: fadeIn 3s;
-  animation-delay: 5s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 
 .downText{
   opacity: 0;  
   animation: fadeIn 3s;
-  animation-delay: 8s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
 }
 

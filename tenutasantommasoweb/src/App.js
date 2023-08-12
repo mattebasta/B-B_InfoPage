@@ -14,9 +14,7 @@ import NoPage from "./pages/NoPage";
 // Style pages and add content
 // add useful number
 // add link to the website for booking (VRBO)
-// Restaurants page style
-// Add a script to tell when a place is closed
-// Add new restaurants to restaurant page
+// Add must visit page
 
 function App() {
   return (

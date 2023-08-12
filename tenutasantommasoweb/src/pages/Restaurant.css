@@ -36,7 +36,6 @@
     flex-direction: column;
     justify-content: flex-start;
     row-gap: 50px;
-    
 }
 
 .restContainer p{
@@ -59,22 +58,29 @@
     column-gap: 1em;
 }
 .BarDiv img{
-    object-fit: scale-down;
+    object-fit:scale-down;
     border-radius: 20px;
     margin: 1em;
     clip-path: circle(72.7% at 27% 43%);
-    width: 50%;
+    width: 90%;
 }
 .BarDiv p:nth-child(1){
     font-size: 5vw;
     justify-content: right;
-    align-items: center;
+    align-items: flex-start;
     text-align: start;
 }
+.barInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .mementoDiv{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 95vw;
     height: 50vh;
@@ -85,7 +91,7 @@
     object-fit: scale-down;
     border-radius: 20px;
     margin: 1em;
-    width: 50%;
+    width: 70%;
     height: 40vh;
     clip-path: circle(72.7% at 7% 50%);
 
@@ -95,13 +101,19 @@
     justify-content: left;
     text-align: start;
 }
+.mementoInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .ondaBluDiv{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 95vw;
-    height: 50vh;
+    height: 40vh;
     margin: 1em;
     column-gap: 1em;
 }
@@ -109,7 +121,7 @@
     object-fit: scale-down;
     border-radius: 20px;
     margin: 1em;
-    width: 50%;
+    width: 70%;
     clip-path: circle(72.7% at 27% 43%);
 }
 .ondaBluDiv p:nth-child(1){
@@ -117,10 +129,16 @@
     justify-content: right;
     text-align: start;
 }
+.ondaBluInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .tavPieDiv{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 95vw;
     height: 50vh;
@@ -131,7 +149,7 @@
     object-fit: scale-down;
     border-radius: 20px;
     margin: 1em;
-    width: 50%;
+    width: 90%;
     clip-path: circle(72.7% at 17% 43%);
 }
 .tavPieDiv p:nth-child(1){
@@ -139,10 +157,16 @@
     justify-content: right;
     text-align: start;
 }
+.tavPieInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .regLuDiv{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 95vw;
     height: 50vh;
@@ -160,4 +184,10 @@
     font-size: 5vw;
     justify-content: right;
     text-align: start;
+}
+.regLuInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
