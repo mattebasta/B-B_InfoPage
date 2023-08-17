@@ -48,11 +48,11 @@
     max-height: fit-content;
     background-color: white;
     box-shadow: 2px 2px 2px 2px;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 15px 10px 15px;
     margin: 2em;
     justify-content: center;
     flex-direction: column;
-    text-align: end;
+    text-align: center;
     row-gap: 3em;
 }
 

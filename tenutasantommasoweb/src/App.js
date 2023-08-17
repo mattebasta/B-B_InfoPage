@@ -4,17 +4,14 @@ import Home from "./pages/Home";
 import Supermarket from "./pages/Supermarket";
 import Restaurant from "./pages/Restaurant";
 import Visit from './pages/Visit';
-import Beach from "./pages/Beach";
 import Contact from './pages/Contact'
 import NoPage from "./pages/NoPage";
 
 
 
 // TODO:
-// Style pages and add content
 // add useful number
 // add link to the website for booking (VRBO)
-// Add must visit page
 
 function App() {
   return (
@@ -25,7 +22,6 @@ function App() {
           <Route path="supermarket" element={<Supermarket />} />
           <Route path="restaurant" element={<Restaurant />} />
           <Route path="visit" element={<Visit />} />
-          <Route path="beach" element={<Beach />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
