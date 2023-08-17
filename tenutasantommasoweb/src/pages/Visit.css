@@ -1,0 +1,69 @@
+@font-face {
+  font-family: custom1;
+  src: url(veneer-two.ttf);
+}
+
+.backgroundVisit {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    394deg,
+    rgba(255, 255, 255, 1) 26%,
+    rgba(179, 241, 251, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    394deg,
+    rgba(255, 255, 255, 1) 26%,
+    rgba(179, 241, 251, 1) 100%
+  );
+  background: linear-gradient(
+    394deg,
+    rgba(255, 255, 255, 1) 26%,
+    rgba(179, 241, 251, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b3f1fb",GradientType=1);
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.bannerVisit {
+  width: 100%;
+  font-family: custom1;
+  font-size: 5vw;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 158, 100);
+}
+
+.visitPlaceContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.polaroid{
+    display: flex;
+    width: 55vw;
+    height: fit-content;
+    max-height: fit-content;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 10px 10px 10px 10px;
+    margin: 2em;
+    justify-content: center;
+    flex-direction: column;
+    text-align: end;
+    row-gap: 3em;
+}
+
+.polaroid img{
+    margin: 1em, 1em, 1em, 1em;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.polaroid p{
+    font-size: 5vw;
+    margin-top: auto;
+    align-self: center;
+    font-family: custom1;
+}
