@@ -3,7 +3,7 @@
     src: url(veneer-two.ttf);
 }
 
-.backgroundHome{
+.backgroundContact{
     background: rgb(255,255,255);
     background: -moz-linear-gradient(394deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
     background: -webkit-linear-gradient(394deg, rgba(255,255,255,1) 26%, rgba(179,241,251,1) 100%);
@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
 }
 
-.bannerHome{
+.bannerContact{
     width: 100%;
     font-family: custom1;
     font-size: 5vw;
@@ -26,71 +26,26 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#74ffe9",endColorstr="#44e5ff",GradientType=1);
 }
 
-.homeP{
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+}
+
+.contactContainer p{
     font-family: custom1;
     font-size: 4vw;
-    text-align: left;
-    
-}
-
-.poolDiv{
-    margin: 1em;
-    font-size: 3vw;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.poolDiv p{
-    color: rgb(0, 145, 255);
-    width: 50%;
-}
-.poolDiv img{
-    width: 50%;
-    mask-image: linear-gradient(30deg, rgba(0, 0, 0, 1) 50%, transparent);
-    clip-path:  polygon(0 0, 34% 0, 100% 100%, 0% 100%);
-    border-radius: 20px;
-}
-
-.sportDiv{
-    margin: 1em;
-    font-size: 3vw;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.sportDiv p{
-    color: rgb(0, 145, 255);
-    width: 50%;
-}
-
-.sportDiv img{
-    width: 50%;
-    mask-image: linear-gradient(30deg, rgba(0, 0, 0, 1) 70%, transparent);
-    clip-path: polygon(22% 0, 100% 0, 100% 100%, 0% 100%);
-    border-radius: 20px;
-}
-
-.acDiv{
-    margin: 1em;
-    font-size: 3vw;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.acDiv p{
-    color: rgb(0, 145, 255);
-    width: 50%;
-}
-
-.acDiv img{
-    width: 50%;
-    mask-image: linear-gradient(30deg, rgba(0, 0, 0, 1) 70%, transparent);
-    clip-path: polygon(0 0, 49% 0, 100% 100%, 0% 100%);
-    border-radius: 20px;
 }

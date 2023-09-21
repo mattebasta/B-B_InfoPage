@@ -7,12 +7,6 @@ import Visit from './pages/Visit';
 import Contact from './pages/Contact'
 import NoPage from "./pages/NoPage";
 
-
-
-// TODO:
-// add useful number
-// add link to the website for booking (VRBO)
-
 function App() {
   return (
     <MemoryRouter>

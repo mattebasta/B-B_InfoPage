@@ -31,7 +31,11 @@
   font-size: 5vw;
   text-align: center;
   color: white;
-  background-color: rgb(0, 158, 100);
+  background: rgb(116,255,233);
+  background: -moz-linear-gradient(77deg, rgba(116,255,233,1) 21%, rgba(68,229,255,1) 85%);
+  background: -webkit-linear-gradient(77deg, rgba(116,255,233,1) 21%, rgba(68,229,255,1) 85%);
+  background: linear-gradient(77deg, rgba(116,255,233,1) 21%, rgba(68,229,255,1) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#74ffe9",endColorstr="#44e5ff",GradientType=1);
 }
 
 .visitPlaceContainer {
