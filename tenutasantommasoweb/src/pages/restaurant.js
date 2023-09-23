@@ -1,3 +1,4 @@
+import React from "react"
 import "./Restaurant.css";
 import ReturnBTN from "./component/upToPageButton.js";
 import barImg from "./img/MazzarellaCafe_after.png";

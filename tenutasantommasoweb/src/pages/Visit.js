@@ -1,3 +1,4 @@
+import React from "react"
 import "./Visit.css"
 import ReturnBTN from "./component/upToPageButton"
 import ortigiaIMG from "./img/ortigia.jpeg"

@@ -18,7 +18,7 @@ const db = mysql.createConnection({
 });
 
 /** variable used to create database and tables all at once */
-var createquery = 'CREATE DATABASE IF NOT EXISTS customers; use customers; CREATE TABLE IF NOT EXISTS reservations (name VARCHAR(255), surname VARCHAR(255), email VARCHAR(255), phone VARCHAR(255), startdate DATE, enddate DATE, PRIMARY KEY (email))';
+var createquery = 'CREATE DATABASE IF NOT EXISTS customers; use customers; CREATE TABLE IF NOT EXISTS reservations (name VARCHAR(255), email VARCHAR(255), phone VARCHAR(255), startdate DATE, enddate DATE, PRIMARY KEY (email))';
 
 /** database creation */
 db.connect(function(err){
@@ -35,14 +35,13 @@ db.connect(function(err){
 */
 app.post("/create", (req, res) => {
     const name = req.body.name;
-    const surname = req.body.surname;
     const email = req.body.email;
     const phone = req.body.phone;
     const startdate = req.body.startdate;
     const enddate = req.body.enddate;
 
     /** query to insert data from client */
-    db.query('INSERT INTO reservations (name, surname, email, phone, startdate, enddate) VALUES (?,?,?,?,?,?)',
+    db.query('INSERT INTO reservations (name, email, phone, startdate, enddate) VALUES (?,?,?,?,?)',
     [name, surname, email, phone, startdate, enddate],
     (err, result) => {
         if (err) {
@@ -68,7 +67,7 @@ app.post("/create", (req, res) => {
         from: 'tenutasantommaso6@gmail.com',
         to: customeremail,
         subject: 'Your booking resume',
-        text: 'Hi' + ' ' + name + ' ' + surname + ' ' + 'below you will find the information of your booking. \n' + 
+        text: 'Hi' + ' ' + name + ' ' + 'below you will find the information of your booking. \n' + 
         'Name:' + ' ' + name + '\n' + 'Start date:' + ' ' + startdate + ' ' + 'End date: ' + ' ' + enddate
     };
     const info = transporter.sendMail(mailOptions);

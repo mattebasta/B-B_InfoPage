@@ -4,6 +4,7 @@ import { FaAmbulance } from "react-icons/fa"
 import { GrUserPolice } from "react-icons/gr"
 import { MdFireTruck } from "react-icons/md"
 import { BsWhatsapp } from "react-icons/bs"
+import React from "react"
 
 const Contact = () => {
     return (

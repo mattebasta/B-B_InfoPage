@@ -1,3 +1,4 @@
+import React from "react"
 import "./Supermarket.css";
 import ReturnBTN from './component/upToPageButton.js';
 

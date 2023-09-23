@@ -1,5 +1,7 @@
+import React from "react"
 import { Outlet } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { useState } from "react";
 import { Axios } from "axios";
 import "./Layout.css";
 
@@ -9,6 +11,24 @@ const Layout = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 };
+/** const used to take all the information inserted in the registration form */
+// const [name, setName] = useState("");
+// const [email, setEmail] = useState("");
+// const [phone, setPhone] = useState(0);
+// const [startdate, setStartDate] = useState("");
+// const [enddate, setEndDate] = useState("");
+
+// const addbooking = () => {
+//   Axios.post('http://localhost:3001/create', {
+//   name: name,
+//   email: email,
+//   phone: phone,
+//   startdate: startdate,
+//   enddate: enddate,
+//   }).then(() => {
+//   window.alert("Thank you for your reservation, you will soon receive an email with a resume")
+//   });
+// };
 
   return (
     <>

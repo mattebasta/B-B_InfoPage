@@ -1,5 +1,6 @@
 import "./upToPageButton.css"
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import React from "react"
 
 function StartPoint() {
     

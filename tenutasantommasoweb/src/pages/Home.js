@@ -1,3 +1,4 @@
+import React from "react"
 import "./Home.css";
 import Pool from "./img/pool.jpeg";
 import Court from "./img/court.jpeg";
