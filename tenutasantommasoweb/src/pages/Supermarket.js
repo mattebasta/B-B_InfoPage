@@ -18,7 +18,7 @@ const Supermarket = () => {
         <div className="superLinks">
           <a
             href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.08825761369096,15.159846916778568&travelmode=driving"
-            rel="noreferrer"
+            rel="noreferrer noopener"
             target="_blank"
           >
             <div className="superInfo">
@@ -28,7 +28,7 @@ const Supermarket = () => {
           </a>
             <a
               href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.07983577403782,15.16277956254551&travelmode=driving"
-              rel="noreferrer"
+              rel="noreferrer noopener"
               target="_blank"
             >
               <div className="superInfo">
@@ -38,7 +38,7 @@ const Supermarket = () => {
           </a>
           <a
               href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.07990298571543,15.162808965618872&travelmode=driving"
-              rel="noreferrer"
+              rel="noreferrer noopener"
               target="_blank"
           >
             <div className="superInfo">

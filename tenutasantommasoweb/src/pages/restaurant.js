@@ -23,7 +23,7 @@ const Restaurant = () => {
         
         <a
           href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.0887772362438,15.162200803554175&travelmode=driving"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           target="_blank"
         >
           <div className="BarDiv">
@@ -45,7 +45,7 @@ const Restaurant = () => {
         <br />
         <a
           href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.081872,15.153473&travelmode=driving"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           target="_blank"
         >
           <div className="mementoDiv">
@@ -65,7 +65,7 @@ const Restaurant = () => {
         </a>
         <a
           href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.03267194770378,15.284107615542435&travelmode=driving"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           target="_blank"
         >
           <div className="ondaBluDiv">
@@ -83,7 +83,7 @@ const Restaurant = () => {
         </a>
         <a
           href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.06233205704212,15.292782627424025&travelmode=driving"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           target="_blank"
         >
           <div className="tavPieDiv">
@@ -101,7 +101,7 @@ const Restaurant = () => {
         </a>
         <a
           href="https://www.google.com/maps/dir/?api=1&origin=37.092317,15.161946&destination=37.058799278126216,15.293036321208719&travelmode=driving"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           target="_blank"
         >
           <div className="regLuDiv">
