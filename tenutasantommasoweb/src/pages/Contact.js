@@ -15,8 +15,8 @@ const Contact = () => {
             <BsWhatsapp size={40}></BsWhatsapp>
             <p>
               for any questions or problems regarding the resort <br />
-              you can contact Giuseppe via whatsapp <br />
-              +39 3331317992
+              you can contact XXXXX via whatsapp <br />
+              +XX-XXXXXXXXX
             </p>
           </div>
           <div className="contact">
